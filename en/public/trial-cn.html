@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://www.swiper.com.cn/demo/160-scroll-container.html -->
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>海能达明星产品最强攻略</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <script src="./js/jquery-1.11.3.min.js"></script>
+  <link rel="stylesheet" href="./css/trial.css?1123">
+</head>
+<body cz-shortcut-listen="true">
+
+  <div id="applyFormDialog" class="dialog section" style="background-color: #fff">
+    <div class="container">
+      <h2 class="section-title">产品咨询</h2>
+      <p class="tips">感谢您的关注，请填写以下表格，信息填写完整之后， <br /> 我们的销售人员会在两个工作日之内联系您。</p>
+      <div class="section-content">
+        <form method="POST" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" class="form"
+          id="applyForm">
+          <input type=hidden name="oid" value="00D7F000004d3MC" hidden />
+          <!--  NOTE: 这个地方，网址改为点击提交后跳转的页面地址  -->
+          <input type=hidden name="retURL" value="https://www.hytera.com/html/allstar/cn/trial.html#successed" hidden />
+          <input type="hidden" maxlength="20"
+            name="00N7F00000LflgN" size="20" type="text"
+            value="7017F000000V0kRQAS"
+            hidden />
+          <div class="field">
+            <label for="a_first_name" class="label">姓名:</label>
+            <input id="a_first_name" name="first_name" type="text" class="input" />
+          </div>
+          <div class="field">
+            <label for="a_company" class="label">公司:</label>
+            <input id="a_company" name="company" type="text" class="input" />
+          </div>
+          <div class="field">
+            <label for="a_phone" class="label">手机:</label>
+            <input class="input" id="a_phone" name="phone" type="text" />
+          </div>
+          <div class="field">
+            <label for="a_email" class="label">邮箱:</label>
+            <input id="a_email" name="email" type="text" class="input" />
+          </div>
+          <div class="field">
+            <label for="a_city" class="label">城市:</label>
+            <input id="a_city" name="00N7F00000M8C1y" type="text" class="input" />
+          </div>
+          <div class="field">
+            <label for="a_description" class="label">需求描述:</label>
+            <textarea id="a_description" name="description" type="text" class="input"></textarea>
+          </div>
+          <button type="submit" class="submit-btn">马上提交</button>
+        </form>
+      </div>
+	  <p class="tips"> <br /> 此活动最终解释权为海能达通信股份有限公司所有 </p>
+    </div>
+  </div>
+
+  <div id="successed" class="dialog section" style="display: none">
+    <div class="container form">
+      <div class="menu-btn active">
+        <div class="line line-1"></div>
+        <div class="line line-2"></div>
+        <div class="line line-3"></div>
+      </div>
+      <h2 class="section-title" style="padding: 2em 0 1.5em;">恭喜您提交成功！</h2>
+      <a href="https://www.hytera.com/cn/" type="submit" class="submit-btn"
+        style="display: block; text-align: center; width: 200px; margin: auto;">确定</a>
+    </div>
+  </div>
+
+  <script>
+    $(function () {
+      var hash = location.hash
+      if (hash === '#successed') {
+        $('#successed').show()
+        $('#successed .menu-btn').click(function () {
+          $('#successed').hide()
+          location.hash = ''
+        })
+      }
+    });
+  </script>
+
+  <script src="js/trial-cn.js?1134"></script>
+
+	<!-- linedin data statistics -->
+	<script type="text/javascript">
+    _linkedin_partner_id = "718323";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script><script type="text/javascript">
+    (function(){var s = document.getElementsByTagName("script")[0];
+    var b = document.createElement("script");
+    b.type = "text/javascript";b.async = true;
+    b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+    s.parentNode.insertBefore(b, s);})();
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=718323&fmt=gif" />
+  </noscript>
+
+  <script>
+    var _mtac = {};
+    (function () {
+      var mta = document.createElement("script");
+      mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+      mta.setAttribute("name", "MTAH5");
+      mta.setAttribute("sid", "500671860");
+
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(mta, s);
+    })();
+  </script>
+
+</body>
+
+</html>
