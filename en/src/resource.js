@@ -4,7 +4,7 @@ export const data = {
   cn: {
     meta: {
       title: 'Meet the Family of Hytera Products',
-      desc: 'How to open the star products of hytera',
+      desc: 'Click to check out Hytera star products!',
     },
     scene1: {
       bgc: '#bac0c9',
